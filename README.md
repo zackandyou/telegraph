@@ -3,6 +3,8 @@
 基于Cloudflare Workers和Pages的图床程序。
 
 # 日志
+20240916 TG_BOT接口使用file_id使file_path过期时重新获取新的file_path
+
 20240916 已关闭TG_BOT接口的本地压缩，TG_BOT的API默认会进行压缩，避免二次压缩导致图片质量过低的问题。
 
 20240914 Telegraph接口上传的文件有**时效性**，建议使用TG_BOT上传。
